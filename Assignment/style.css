@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+    text-align: center; /* Align content in the center horizontally */
+}
+
+.topnav {
+    margin: auto;
+    font-size: medium;
+    display: inline-block; /* Ensure the top navigation is displayed inline */
+}
+
+td, tr {
+    border: 2px solid rgb(135, 13, 13);
+    padding: 10px;
+}
+
+.banner {
+    background-image: url('kinke.png.PNG');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+}
+
+/* Optional: Style for paragraphs */
+p {
+    text-align: center; /* Center paragraphs */
+}
