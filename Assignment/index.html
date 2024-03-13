@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script>
+        // Function to greet the user with a prompt box
+        function greetUser() {
+            var userName = prompt("Welcome to KinkE Styles! Please enter your name:");
+            if (userName != null && userName != "") {
+                alert("Welcome, " + userName + "!");
+            }
+        }
+        // Call greetUser function when the page loads
+        window.onload = greetUser;
+    </script>
     <title>Document</title>
 </head>
 <body>
@@ -23,8 +34,17 @@
 
     <img src="index.JPG" width="200px" height="300px" alt="picture">
 
-    <p>As your braiding technician/natural hair stylist, my goal is to tame every curl,
-         coil, and kink while making sure every client leaves feeling beautiful and satisfied.</p>
+    <p><b>As your braiding technician/natural hair stylist, my goal is to tame every curl,
+         coil, and kink while making sure every client leaves feeling beautiful and satisfied.</b></p>
+
+         <footer>
+            <div class="social-media">
+                <a href="https://www.facebook.com/ebony.davis.121772"><img src="facebook.png" alt="Facebook" height="10%" width="30px"></a>
+                <a href="https://www.instagram.com/kinke_styles/"><img src="Instagram_icon.png.webp" alt="Instagram" height="10%" width="30px" ></a>
+            </div>
+            <p>&copy; 2024 Business Name. All rights reserved.</p>
+        </footer>
+
 
   
 </body>
